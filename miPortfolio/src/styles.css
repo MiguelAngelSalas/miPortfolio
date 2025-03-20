@@ -1,0 +1,125 @@
+.nav-header {
+  background-color: #333333;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid #333;
+  border-radius: 0 0 5px 5px;
+  margin-left: 25%;
+  margin-right: 25%;
+  border: 3px solid #02686f; /* Borde azul elegante */
+}
+button {
+  margin: 5px;
+  padding: 0px;
+  font-family: "Winky Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* O el peso que prefieras */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Winky Sans";
+  src: url("./assets/fonts/WinkySans.ttf") format("truetype");
+  font-weight: 400; /* Cambia según el peso de la fuente */
+  font-style: normal;
+}
+
+/* Estilo con la fuente aplicada */
+.winky-sans-normal {
+  font-family: "Winky Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400; /* O el peso que prefieras */
+  font-style: normal;
+}
+
+.winky-sans-bold {
+  font-family: "Winky Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700; /* Para negritas */
+  font-style: normal;
+}
+/* Foto principal */
+.foto-perfil {
+  margin-top: 10px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%; /* Hace la foto circular */
+  border: 5px inset #09cac7; /* Borde azul elegante */
+  box-shadow: 0 0 15px rgba(74, 144, 226, 0.6); /* Sombra luminosa */
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Efecto al pasar el mouse */
+.foto-perfil:hover {
+  transform: scale(1.05); /* Aumenta ligeramente el tamaño */
+  box-shadow: 0 0 30px rgba(74, 144, 226, 0.8);
+}
+
+.nav-dinamico {
+  font-family: "Winky Sans", sans-serif;
+  font-optical-sizing: auto;
+  display: block;
+  margin-top: 50px;
+  border: 5px solid #02686f; /* Borde azul elegante */
+  border-radius: 5px;
+}
+
+.boton-estilizado {
+  align-items: center;;
+  background-color: #3498db; /* Azul elegante */
+  color: white;
+  padding: 12px 24px;
+  border: 2px inset;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.2s;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilo al pasar el mouse */
+.boton-estilizado:hover {
+  background-color: #2980b9; /* Azul más oscuro */
+  transform: translateY(-2px); /* Efecto de levantamiento */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+/* Estilo al hacer click */
+.boton-estilizado:active {
+  transform: translateY(1px);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
+}
+
+body {
+  background: linear-gradient(135deg, #09cac7, #02686f); /* Gradiente de azul a morado */
+  color: white;
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+}
+
+.app-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.iframe-container {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 1200px; /* Puedes ajustar el tamaño máximo del iframe */
+  margin: 0 auto;
+}
+
+.iframe {
+  border-radius: 8px;
+  border: none;
+}
+
+
+
+
+
